@@ -13,4 +13,24 @@ p{
     line-height: 1.5;
 }
 /*header*/
+.site-header{
+    background-image: url(img/header.jpg);
+    height: 400px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.navigation-bar{
+    margin-top: 40px;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;  
+}
+
 /*main*/
+/*menu*/
+.menu a{
+    color: white;
+    margin-right: 30px;
+
+}
