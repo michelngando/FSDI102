@@ -66,9 +66,7 @@ text-align: center;
 align-items: end;
 display: block;
 }
-.site-footer-elemets{
-    margin-top: 5rem;
-}
+
 a.btn-details{
     display: block;
     background-color: orange;
@@ -91,10 +89,10 @@ a.btn-details{
 }
 .houses-container{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    max-width: 100%;
+    gap: 16px;
+    width: fit-content;
 }
+
 .houses-item{
     background-color: lightgray;
 }
@@ -106,7 +104,17 @@ a.btn-details{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    max-width: 100%;
+      
+}
+.house-types-items li{
+    justify-content: space-between;
     
+}
+.houses-types-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
