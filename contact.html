@@ -3,43 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="mystyle.css">
     <title>Contact</title>
 </head>
 <body>
-    <header>
-
+    <header class="header-contact">
+        <div class="header-bar">
+            <h2>RealEstate</h2>
+            <nav>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
-    <form>
+    <div class="main-paragraph">
+        <h3>Contact</h3>
+        <b>Fill the next information</b>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, in!</p>
+    </div>
+    <form class="contact-form main-paragraph">
         <fieldset>
             <legend>Personal Information</legend>
 
-            <div>
+            <div class="input-container">
                 <label for="name">Name:</label>
                 <input id="name" type="text" placeholder="Type your name">
             </div>
 
-            <div>
+            <div class="input-container">
                 <label for="email">Email:</label>
                 <input id="email" type="email" placeholder="example@email.com">
             </div>
 
-            <div>
+            <div class="input-container">
                 <label for="phone number">Phone number:</label>
                 <input id="phone number" type="phone number" placeholder="123-456-7890">
             </div>
 
-            <div>
+            <div class="input-container">
                 <label for="message">Message:</label>
                 <textarea maxlength="100" id="message"></textarea>
             </div>
+        </fieldset>
 
+        <fieldset>
+            <legend>Product Information</legend>
 
+            <div class="input-container">
+                <label for="type">Type:</label>
+                <select id="type">
+                    <option value="selection" deactivate>Select an option</option>
+                    <option value="option 1">Option #1</option>
+                    <option value="option 2">Option #2</option>
+                    <option value="option 3">Option #3</option>
+                </select>
+            </div>
+
+            <div class="input-container">
+                <label for="number">Number:</label>
+                <input id="number" type="number">
+            </div>  
 
         </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <div>
+                <label for="email"></label>
+                Email: <input name="email" type="radio" value="active" class="btn">
+                Phone: <input name="email" type="radio" value="inactive">
+            </div>
+
+                <label for="date">Date:</label>
+                <input id="date" type="date">       
+            
+                <label for="time">Hour:</label>
+                <input id="time" type="time">           
+        </fieldset>
+
     </form>
 
-    <footer>
-
+    <footer class="houses-item">
+        <p>Powered by <b><u>Zillow</u></b></p>
+        <p>Copyright @ 2024 | <b><u>Privacy Policy</u></b></p>
+        <p>Fb In YT</p>
+        
     </footer>
     
 </body>
