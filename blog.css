@@ -1,0 +1,65 @@
+/*global*/
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 200;
+}
+
+/*header*/
+.blog-header{
+    background-image: url(img/blog1.jpg);
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*main*/
+.main-title{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.main-sections{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+    background-color: lightblue;
+}
+@media(max-width:768px){
+    .main-sections{
+        flex-direction: column;
+    }
+}
+.main-sections-rev{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 1.5rem;
+    background-color: aquamarine;
+}
+@media(max-width:768px){
+    .main-sections-rev{
+        flex-direction: column;
+    }
+.main-sections-detail{
+    align-items: end;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.main-sections img{
+    size: 30px;
+}
+/*footer*/
+.blog-footer{
+    display: flex;
+    background-color: black;
+}
+.blog-footer p{
+    color: white;
+}

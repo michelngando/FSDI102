@@ -9,9 +9,7 @@ footer{
 fieldset{
     margin-top: 1rem;
 }
-input{
-    
-}
+
     
 
 /*header*/
@@ -39,8 +37,21 @@ input{
  margin-left: 10rem;
  margin-right: 10rem     
 }
+.main-paragraph-title{
+    text-align: center;  
+}
+@media(max-width:768px){
+    .main-paragraph-title{
+     text-align: center;
+    } 
+ }
+
 .btn{
     margin-right: 30rem
+}
+.contact-form-time{
+    margin-right:;
+    display: inline-block;
 }
 
 /*border adjustment*/
@@ -51,7 +62,7 @@ input{
     padding:1rem;
     border-radius: 1rem;
 }
-.contact-form input{
+.contact-form-input{
     width: 45%;
 }
 .contact-form label{
